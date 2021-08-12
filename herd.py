@@ -3,10 +3,10 @@ from dinosaur import Dinosaur
 
 class Herd:
 #constructor
-    def __init__(self,):
-        self.herd = [Dinosaur("Anklyosaurus", 100, 300, )]
+    def __init__(self):
+        self.herd = [Dinosaur("Anklyosaurus", 100, 300, "Tail lash"), Dinosaur("Anklyosaurus", 100, 300, "Tail lash"), Dinosaur("Anklyosaurus", 100, 300, "Tail lash")]
         
 #Methods
-#Note: Galactic Nukor fires photon energy rays
-        def attack_with_tail(self):
+#Note: The Anklyosaurus delivers a painful blow to the robots
+        def attack_robot(self):
             self.attack = "Hit with tail"

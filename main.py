@@ -1,8 +1,5 @@
 #imports
 
-from herd import Herd
-from fleet import Fleet
-
-#Instantiated objects
-
-#Execute object methods
+from battlefield import Battlefield
+if __name__=='__main__':
+    Battlefield()
