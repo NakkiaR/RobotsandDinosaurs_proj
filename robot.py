@@ -3,16 +3,14 @@ from weapon import Weapon
 #constructor
 class Robot:
     def __init__(self):
-        self.name = ''#"Cliche"
-        self.health = 500 #It can be hit 5x before dying
+        self.name = ''
+        self.health = 300 #It can be hit 3x before dying
         self.weapon = Weapon()
  #Methods
  #The robot attacks the dinosaur
-    def attack_dinosaur(self):
-        self.aim_at_dinosaur = "Aim"
+    def add_robot_team(self):
+        self.robot_one = Weapon()
+        self.robot_two = Weapon()
+        self.robot_three = Weapon()
 
-    def attack_dinosaur(self):
-        self.fire_at_dinosaur = "Fire"
-
-
-    
+       

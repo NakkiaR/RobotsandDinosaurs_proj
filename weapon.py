@@ -8,6 +8,4 @@ class Weapon:
     def attack_with_weapon(self):
         self.attack = "fire"
         print("Fire!", self.attack_power)
-        
-
     

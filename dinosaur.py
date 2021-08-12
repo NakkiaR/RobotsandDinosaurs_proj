@@ -3,14 +3,10 @@ class Dinosaur:
     def __init__(self):
         self.name = ""
         self.attack_power = 100
-        self.health = 500
+        self.health = 300
 #Methods
 #Note: Dinosaur attacks the robot
-    def attack_with_teeth(self):
-        self.attack = "Bite"
-
-    def attack_with_tail(self):
-        self.attack = "Hit with tail"
-
-    def attack_with_claws(self):
-        self.attack = "Scratch"
+    def add_dinosaur_herd(self):
+        self.dinosaur_one =
+        self.dinosaur_two = 
+        self.dinosaur_three = 
